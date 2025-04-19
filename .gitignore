@@ -1,0 +1,70 @@
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# LayoutEditor
+*.gds
+
+# Editor-specific
+.vscode/
+.idea/
+*.swp
+*~
+
+# Git-specific
+*.orig
+*.patch
+
+# Build systems
+/dist/
+/build/
+/out/
+/bin/
+/obj/
+*.o
+*.a
+*.so
+*.dll
+*.exe
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.env
+.venv/
+*.ipynb_checkpoints
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Rust
+target/
+Cargo.lock
+
+# Java
+*.class
+*.jar
+*.war
+
+# Logs
+*.log
+
+# Virtual machines / containers
+.vagrant/
+*.box
+*.qcow2
+*.img
+*.iso
+*.docker
+
+# Compiled notebooks
+*.nbconvert.ipynb
+
+# Secrets (never store real secrets in source)
+.env.local
+.env.secret
+*.key
+*.pem
